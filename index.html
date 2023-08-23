@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <title>hm1</title>
   </head>
@@ -7,10 +7,14 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">WebStudio</a></li>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li>
+            <a class="logo" href="index.html">
+              <span class="web">web</span><span class="studio">studio</span>
+            </a>
+          </li>
+          <li><a href="index.html">Studio</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html">Contacts</a></li>
         </ul>
       </nav>
       <a href="malito:info@devstudio.com">info@devstudio.com</a>
@@ -61,8 +65,16 @@
           <ul>
             <li>
               <img
-                src="images/tablet.jpg"
-                alt="computer-and-tablet"
+                src="images/computer.jpg"
+                alt="computer"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/interface.jpg"
+                alt="smartfon.interface"
                 width="370"
                 height="294"
               />
@@ -70,15 +82,7 @@
             <li>
               <img
                 src="images/phone.jpg"
-                alt="smartfon-and-laptop"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li>
-              <img
-                src="images/tablet.jpg"
-                alt="tablet"
+                alt="phone"
                 width="370"
                 height="294"
               />
@@ -91,43 +95,38 @@
           <h2>Our Team</h2>
           <ul>
             <li>
-              <img
-                src="images/men.glasses.jpg"
-                alt="man-in-glasses"
-                width="270"
-                height="260"
-              />
-              <h4>John Doe</h4>
+              <img src="images/mark.jpg" alt="man" width="270" height="260" />
+              <h4>Mark Guerrero</h4>
               <p>Product Designer</p>
             </li>
             <li>
               <img
-                src="images/women.jpg"
+                src="images/tom.ford.jpg"
                 alt="women-in-glasses"
                 width="270"
                 height="260"
               />
-              <h4>John Doe</h4>
+              <h4>Tom Ford</h4>
               <p>Frontend Developer</p>
             </li>
             <li>
               <img
-                src="images/men.photo.jpg"
+                src="images/camila.garcia.jpg"
                 alt="man"
                 width="270"
                 height="260"
               />
-              <h4>John Doe</h4>
+              <h4>Camila Garcia</h4>
               <p>Marketing</p>
             </li>
             <li>
               <img
-                src="images/glasses.jpg"
+                src="images/daniel.wilson.jpg"
                 alt="man-in-black-t-shirt"
                 width="270"
                 height="260"
               />
-              <h4>John Doe</h4>
+              <h4>Daniel Wilson</h4>
               <p>UI Designer</p>
             </li>
           </ul>
@@ -137,12 +136,15 @@
     <footer>
       <section>
         <div>
-          <h2>WebStudio</h2>
-          <address>
-            <p>Warszawa, Aleje Jerozolimskie 21</p>
-            <a href="tel:info@example.com">info@example.com</a>
-            <a href="mailto:+48111111111">+48 111 111 111</a>
-          </address>
+          <h2>
+            <a class="logo" href="index.html">
+              <span class="web">web</span><span class="studio">studio</span>
+            </a>
+          </h2>
+          <p>
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
         </div>
       </section>
     </footer>
